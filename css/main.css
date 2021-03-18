@@ -1,0 +1,120 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#header{
+    position:sticky;
+    top:0;
+    display: flex;
+    color: red;
+    height: 50px;
+    /* height: 5vh; */
+    background-color: white;
+    border-bottom: solid 1px lightslategrey;
+}
+
+#left-menu{
+    display: flex;
+}
+#menu-btn{
+
+}
+#search-area{
+    /* margin-left: 100px; */
+}
+#search-input{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+}
+
+#right-menu{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+#update-btn{
+
+}
+
+#display-type-btn{
+}
+
+#setting-btn{
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    
+}
+#sidebar{
+    position:sticky;
+    top:48.4px;
+    flex-direction: column;
+    width: 50px;
+    /* width: 6vh; */
+    height: 94vh;
+    margin: 0;
+    border-right: solid 1px black;
+}
+#content{
+    /* min-width: 1200px; */
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px 0px 40px;
+}
+
+#text-editor{
+    text-align: center;
+}
+
+#editor{
+    display: flex;
+    align-items: flex-end;
+    margin: 10px auto 10px auto;
+    padding: 0 10px;
+    border-bottom: solid 1px black;
+    width: 650px;
+}
+#text-box{
+    width: 500px;
+    height: 35px;
+    border:none;
+    outline: none;
+    top: 0;
+}
+
+#saved-contents{
+    display: flex;
+    margin-top: 70px;
+}
+
+.icon{
+    width: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+.icon-small{
+    width: 25px;
+    padding: 3px;
+    margin: 3px;
+}
+.icon:hover, .icon-small:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+.post{
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 15px;
+}
